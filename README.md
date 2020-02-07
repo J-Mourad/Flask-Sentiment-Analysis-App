@@ -1,4 +1,4 @@
 # Flask-Sentiment-Analysis-App
 Flask Sentiment Analysis Application
 
-![app](Building a Sentiment Analysys Flask App using nltk.png)
+![app](https://github.com/J-Mourad/Flask-Sentiment-Analysis-App/blob/master/Building%20a%20Sentiment%20Analysys%20Flask%20App%20using%20nltk.png)
