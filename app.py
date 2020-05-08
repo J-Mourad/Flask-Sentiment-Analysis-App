@@ -21,7 +21,7 @@ def my_form_post():
     processed_doc1 = ' '.join([word for word in text1.split() if word not in stop_words])
 
     sa = SentimentIntensityAnalyzer()
-    dd = sa.polarity_scores(text=text1)
+    dd = sa.polarity_scores(text=processed_doc1)
     compound = round((1 + dd['compound'])/2, 2)
 
     return render_template('form.html', final=compound, text1=text1)
